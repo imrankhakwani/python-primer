@@ -1,30 +1,4 @@
-import os, shutil, time
 
-home = os.getcwd()
-
-# print(home)
-
-# os.mkdir("new")
-
-# os.rmdir("old")
-# os.system('ls -al')
-
-# root_scr_dir = r'./'
-# root_dst_dir = r'./backup-' + time.asctime()
-#
-# for src_dir, dirs, files in os.walk(root_scr_dir):
-#     dst_dir = src_dir.replace(root_scr_dir, root_dst_dir, 1)
-#     if not os.path.exists(dst_dir):
-#         os.makedirs(dst_dir)
-#     for file_ in files:
-#         src_file = os.path.join(src_dir, file_)
-#         dst_file = os.path.join(dst_dir, file_)
-#         if os.path.exists(dst_file):
-#             os.remove(dst_file)
-#         shutil.copy(src_file, dst_dir)
-# print(">>>>>>>>>>>>>>>>>>>>Backup Complete<<<<<<<<<<<<<<<<<<")
-
-os.system('ls -al')
 
 # student = {"name": 'Imran Saeed', 'job': 'Web Developer'}
 #
@@ -154,66 +128,4 @@ sep = calendar.TextCalendar(calendar.MONDAY)
 #
 # hc = calendar.HTMLCalendar(calendar.MONDAY)
 # print(hc.formatmonth(2023, 7))
-#
-# import math
-#
-# print(math.sin(2))
-#
-# from math import floor as f
-# print(f(1.9723))
-#
-# import math as m
-# print(m.ceil(1.25))
 
-from math import *
-# print(trunc(5.99999))
-#
-# print(sum([.1, .1, .1, .1, .1, .1, .1, .1, .1, .1]))
-#
-# print(fsum([.1, .1, .1, .1, .1, .1, .1, .1, .1, .1]))
-
-# print(exp(1e-5) - 1)
-#
-# print(expm1(1e-5))
-#
-# print(math.e)
-# print(math.pi)
-
-import random
-import math
-
-# print(random.randint(1, 5))
-#
-# print(math.trunc(random.random() * 100))
-#
-# colors = ["red", "green", "blue", "cyan", "magenta", "yellow"]
-#
-# print(random.choice(colors))
-#
-# random.shuffle(colors)
-#
-# print(colors)
-
-# lst = [[i] for i in range(20)]
-#
-# print(lst)
-#
-# random.shuffle(lst)
-#
-# print(lst)
-#
-# print(random.randrange(0, 200, 7))
-#
-# output = {"Heads": 0, "Tails": 0}
-# coin = list(output.keys())
-#
-# for i in range(10000):
-#     output[random.choice(coin)] += 1
-#
-# print("Heads: ", output["Heads"])
-# print("Tails: ", output["Tails"])
-
-import tkinter as tk
-from tkinter import *
-
-window_ = Tk()
