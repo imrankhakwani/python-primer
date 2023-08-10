@@ -88,11 +88,3 @@ print('True and False: ', True and False)
 print('False and True: ', False and True)
 print('False and False:', False and False)
 print('True and True:', True and True)
-
-name = 'imran saeed'
-print(name.split(sep=' '))
-print(name.capitalize())
-print(name.upper())
-print(name.center(30, '-'))
-print(name.index('saeed'))
-print(name.title())
