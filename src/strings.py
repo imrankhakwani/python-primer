@@ -6,6 +6,7 @@ print('Capitalize all characters', name.upper())
 print(name.center(30, '-'))
 print(name.index('saeed'))
 print(name.title())
+
 print(name[:])
 print(name[2:])
 print(name[:2])
@@ -15,13 +16,17 @@ print(name[3:7])
 # imran saeed
 #  - - - -
 # the range is 1-9 and skips one character
-# print 'ma a'
 print(name[1:9:2])
+# 'ma a'
 
 # reverse the string
 print(name[::-1])
+# 'deeas narmi'
 
 name = ' imran saeed '
 print(name.rstrip())
 print(name.lstrip())
 print(name.strip())
+# ' imran saeed'
+# 'imran saeed '
+# 'imran saeed'
